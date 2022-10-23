@@ -6,7 +6,13 @@
   list-style: none;
   direction: rtl;
 }
-
 body {
   font-family: "vazir";
+}
+
+.container {
+  display: flex;
+}
+.link {
+  color: inherit;
 }
