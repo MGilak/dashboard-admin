@@ -53,4 +53,71 @@ let data = [
   },
 ];
 
+
+export const newMembers = [
+  {
+      id: 1,
+      username: 'محمود گیلک',
+      title: 'توسعه‌دهنده وب',
+      img: 'images/gilak.jpg'
+  },
+  {
+      id: 2,
+      username: 'ساسان مقیمی',
+      title: 'کارشناس سئو',
+      img: 'images/sasan.jpg'
+  },
+  {
+      id: 3,
+      username: 'زهرا آقایی',
+      title: 'وبلاگ‌نویس',
+      img: 'images/zahra.jpg'
+  },
+  {
+      id: 4,
+      username: 'کامران زند',
+      title: 'هکر',
+      img: 'images/qadir.jpg'
+  },
+]
+
+export const transactions = [
+  {
+      id: 1,
+      customer: 'علی زند',
+      date: '۲۳ مهر ۱۴۰۱',
+      amount: "۱۲۰۰",
+      status: 'تایید شده',
+      statuss: 'Approved',
+      img: 'images/qadir.jpg'
+  },
+  {
+      id: 2,
+      customer: 'امین سعیدی',
+      date: '۱۵ آبان ۱۴۰۱',
+      amount: "۳۲۰۰",
+      status: 'رد شده',
+      statuss: 'Declined',
+      img: 'images/amin.jpg'
+  },
+  {
+      id: 3,
+      customer: 'محمد سرلک',
+      date: '۳۰ آذر ۱۴۰۱',
+      amount: "۵۶۰۰۰",
+      status: 'در انتظار',
+      statuss: 'Pending',
+      img: 'images/mmd.jpg'
+  },
+  {
+      id: 4,
+      customer: 'ساسان رودکی',
+      date: '۱۲ آبان ۱۴۰۱',
+      amount: "۲۳۵۰۰",
+      status: 'تایید شده',
+      statuss: 'Approved',
+      img: 'images/sasan.jpg'
+  },
+]
+
 export default data;

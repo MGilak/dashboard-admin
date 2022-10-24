@@ -3,14 +3,13 @@ import "./TopBar.css";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LanguageIcon from "@mui/icons-material/Language";
 import SettingsIcon from "@mui/icons-material/Settings";
-import adminPhoto from "../../images/gilak.jfif";
 
 const TopBar = () => {
   return (
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topbarRight">
-          <img src={adminPhoto} alt="" />
+          <img src="images/gilak.jpg" alt="" />
           <div className="topbarIconContainer">
             <SettingsIcon />
           </div>
