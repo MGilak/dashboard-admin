@@ -1,4 +1,4 @@
-let data = [
+export let data = [
   {
     "name":"",
     "sale":20_000
@@ -86,7 +86,7 @@ export const transactions = [
       id: 1,
       customer: 'علی زند',
       date: '۲۳ مهر ۱۴۰۱',
-      amount: "۱۲۰۰",
+      amount: "۱,۲۰۰",
       status: 'تایید شده',
       statuss: 'Approved',
       img: 'images/qadir.jpg'
@@ -95,7 +95,7 @@ export const transactions = [
       id: 2,
       customer: 'امین سعیدی',
       date: '۱۵ آبان ۱۴۰۱',
-      amount: "۳۲۰۰",
+      amount: "۳,۲۰۰",
       status: 'رد شده',
       statuss: 'Declined',
       img: 'images/amin.jpg'
@@ -104,7 +104,7 @@ export const transactions = [
       id: 3,
       customer: 'محمد سرلک',
       date: '۳۰ آذر ۱۴۰۱',
-      amount: "۵۶۰۰۰",
+      amount: "۵۶,۰۰۰",
       status: 'در انتظار',
       statuss: 'Pending',
       img: 'images/mmd.jpg'
@@ -113,11 +113,52 @@ export const transactions = [
       id: 4,
       customer: 'ساسان رودکی',
       date: '۱۲ آبان ۱۴۰۱',
-      amount: "۲۳۵۰۰",
+      amount: "۲۳,۵۰۰",
       status: 'تایید شده',
       statuss: 'Approved',
       img: 'images/sasan.jpg'
   },
 ]
 
-export default data;
+export let userRows = [
+  {
+      id: "۱",
+      username: 'محمود گیلک',
+      avatar: 'images/gilak.jpg',
+      status: 'فعال',
+      transaction: '۱۲,۰۰۰ تومان',
+      email: 'amin@gmail.com'
+  },
+  {
+      id: "۲",
+      username: 'امین سعیدی',
+      avatar: 'images/amin.jpg',
+      status: 'غیرفعال',
+      transaction: '۳۲,۴۵۰ تومان',
+      email: 'amin@gmail.com'
+  },
+  {
+      id: "۳",
+      username: 'امید مقدم',
+      avatar: 'images/sasan.jpg',
+      status: 'فعال',
+      transaction: '۷۵۰ تومان',
+      email: 'amin@gmail.com'
+  },
+  {
+      id: "۴",
+      username: 'سارا میرزایی',
+      avatar: 'images/zahra.jpg',
+      status: 'فعال',
+      transaction: '۰ تومان',
+      email: 'amin@gmail.com'
+  },
+  {
+      id: 5,
+      username: 'رضا حسینی',
+      avatar: 'images/hamze.jpg',
+      status: 'فعال',
+      transaction: '۹۹,۴۵۰ تومان',
+      email: 'amin@gmail.com'
+  }
+]
