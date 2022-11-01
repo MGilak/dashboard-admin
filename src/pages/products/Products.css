@@ -1,0 +1,30 @@
+.products {
+  flex: 5;
+  height: calc(100vh - 60px);
+}
+
+.productUser {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.productImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.productEdit {
+  padding: 5px 8px;
+  border: none;
+  outline: none;
+  background-color: #3bb077;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.productDelete {
+  color: red;
+  cursor: pointer;
+}

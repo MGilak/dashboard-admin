@@ -162,3 +162,49 @@ export let userRows = [
       email: 'amin@gmail.com'
   }
 ]
+
+export let products = [
+  {
+      idd: "۱",
+      id: 1,
+      title: 'Asus',
+      avatar: 'images/asus.jpeg',
+      price: "۲,۳۰۰ تومان"
+  },
+  {
+      idd: "۲",
+      id: 2,
+      title: 'Acer',
+      avatar: 'images/acer.jpg',
+      price: "۴,۳۰۰ تومان"
+  },
+  {
+      idd: "۳",
+      id: 3,
+      title: 'HP',
+      avatar: 'images/hp.jpg',
+      price: "۷,۶۰۰ تومان"
+  },
+  {
+      idd: "۴",
+      id: 4,
+      title: 'Dell',
+      avatar: 'images/dell.jpg',
+      price: "۱,۹۰۰ تومان"
+  },
+]
+
+export const productsData = [
+  {
+      name: 'دی',
+      sales: 4000,
+  },
+  {
+      name: 'آذر',
+      sales: 3000,
+  },
+  {
+      name: ' آبان',
+      sales: 5000,
+  },
+]

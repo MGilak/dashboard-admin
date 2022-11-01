@@ -9,11 +9,11 @@ import {
   Tooltip,
 } from "recharts";
 
-const Chart = ({ title, data, dataKey, grid }) => {
+const Chart = ({ title, data, dataKey, grid,aspect }) => {
   return (
     <div className="chart">
       <h3 className="chartTitle">{title}</h3>
-      <ResponsiveContainer width="100%" aspect={6}>
+      <ResponsiveContainer width="100%" aspect={aspect}>
         <LineChart data={data}>
           <XAxis dataKey="name" srtroke="#5550bd" />
           <Line type="monotone" dataKey={dataKey} srtroke="#5550bd" />

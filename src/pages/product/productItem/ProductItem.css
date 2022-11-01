@@ -1,0 +1,15 @@
+.productInfoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.productInfoKey {
+  font-weight: 900;
+  font-size: 14px;
+}
+.productInfoValue {
+  font-size: 14px;
+}
